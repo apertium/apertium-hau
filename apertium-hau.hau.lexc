@@ -40,6 +40,54 @@ LEXICON Nouns
 
 sirdi:sird N-SIRD ; ! "translation??"
 
+%<n%>%<m%>%<sg%>:i   # ;
+%<n%>%<m%>%<pl%>:ada   # ;
+
+LEXICON NInfl2
+
+%<n%>%<m%>%<sg%>:i   # ;
+%<n%>%<m%>%<pl%>:abe   # ;
+
+LEXICON NInfl3
+
+%<n%>%<m%>%<sg%>:i   # ;
+%<n%>%<m%>%<pl%>:amu   # ;
+
+LEXICON NInfl4
+
+%<n%>%<m%>%<sg%>:a   # ;
+%<n%>%<m%>%<pl%>:anni   # ;
+
+LEXICON NInfl5
+
+%<n%>%<m%>%<sg%>:o   # ;
+%<n%>%<m%>%<pl%>:aye   # ;
+
+LEXICON NInfl6
+
+%<n%>%<mf%>%<sg%>:a   # ;
+%<n%>%<mf%>%<pl%>:awa  # ;
+
+LEXICON NInfl7
+
+%<n%>%<m%>%<sg%>:bo   # ;
+%<n%>%<m%>%<pl%>:bba  # ;
+
+LEXICON NInfl8
+
+%<n%>%<m%>%<sg%>:du   # ;
+%<n%>%<m%>%<pl%>:ddai  # ;
+
+LEXICON NInfl9
+
+%<n%>%<m%>%<sg%>:o   # ;
+%<n%>%<m%>%<pl%>:i  # ;
+
+LEXICON NInfl10
+
+%<n%>%<m%>%<sg%>:a   # ;
+%<n%>%<f%>%<pl%>:u  # ;
+
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
 ! http://wiki.apertium.org/wiki/Lttoolbox_and_lexc
