@@ -3,18 +3,20 @@
 Multichar_Symbols
 
 ! Part of speech categories
-%<n%>  ! Noun
-%<pl%> ! Plural
-%<sg%> ! Singular
-%<m%> ! Masculine
-%<f%> ! Feminine
-%<mf%> ! Masculine-Feminine
+%<n%>      ! Noun
+%<pl%>     !  Plural
+%<sg%>     ! Singular
+%<m%>      ! Masculine
+%<f%>      ! Feminine
+%<mf%>     ! Masculine-Feminine
 
 !Alphabet
 ! A B Ɓ C D Ɗ E F G H I J K Ƙ L M N O R R̃ S T U W Y Z
 ! a b ɓ c d ɗ e f g h i j k ƙ l m n o r r̃ s t u w y z
 ! %{A%}:a %>:0  ;
 
+
+%>         ! Morpheme boundary
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -23,20 +25,20 @@ Multichar_Symbols
 
 LEXICON Root
 
-NounRoot ;
+Nouns ;
+
+LEXICON N-SIRD
+
+%<n%>%<sg%>:%>i   # ;
+%<n%>%<pl%>:%>ada   # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON NounRoot
+LEXICON Nouns
 
-sirdi:sird NInfl ; ! A noun
-
-LEXICON NInfl
-
-%<n%>%<sg%>:i   # ;
-%<n%>%<pl%>:ada   # ;
+sirdi:sird N-SIRD ; ! "translation??"
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
