@@ -10,17 +10,13 @@ Multichar_Symbols
 %<f%>      ! Feminine
 %<mf%>     ! Masculine-Feminine
 
-!Alphabet
-! A B Ɓ C D Ɗ E F G H I J K Ƙ L M N O R R̃ S T U W Y Z
-! a b ɓ c d ɗ e f g h i j k ƙ l m n o r r̃ s t u w y z
-! %{A%}:a %>:0  ;
-
-
 %>         ! Morpheme boundary
 
 LEXICON Root
 
 Nouns ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON N-SIRD
 
