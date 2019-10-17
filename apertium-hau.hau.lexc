@@ -10,63 +10,66 @@ Multichar_Symbols
 %<f%>      ! Feminine
 %<mf%>     ! Masculine-Feminine
 
+%<sent%>
+
 %>         ! Morpheme boundary
 
 LEXICON Root
 
 Nouns ;
+Punctuation ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON N-SIRD
 
-%<n%>%<m%>%<sg%>:i   # ;
-%<n%>%<m%>%<pl%>:ada   # ;
+%<n%>%<m%>%<sg%>%>:i   # ;
+%<n%>%<m%>%<pl%>%>:ada   # ;
 
 LEXICON N-GULBI
 
-%<n%>%<m%>%<sg%>:i   # ;
-%<n%>%<m%>%<pl%>:abe   # ;
+%<n%>%<m%>%<sg%>%>:i   # ;
+%<n%>%<m%>%<pl%>%>:abe   # ;
 
 LEXICON N-KURMI
 
-%<n%>%<m%>%<sg%>:i   # ;
-%<n%>%<m%>%<pl%>:amu   # ;
+%<n%>%<m%>%<sg%>%>:i   # ;
+%<n%>%<m%>%<pl%>%>:amu   # ;
 
 LEXICON N-WATA
 
-%<n%>%<m%>%<sg%>:a   # ;
-%<n%>%<m%>%<pl%>:anni   # ;
+%<n%>%<m%>%<sg%>%>:a   # ;
+%<n%>%<m%>%<pl%>%>:anni   # ;
 
 LEXICON N-ZOMO
 
-%<n%>%<m%>%<sg%>:o   # ;
-%<n%>%<m%>%<pl%>:aye   # ;
+%<n%>%<m%>%<sg%>%>:o   # ;
+%<n%>%<m%>%<pl%>%>:aye   # ;
 
 LEXICON N-TALAKA
 
-%<n%>%<mf%>%<sg%>:a   # ;
-%<n%>%<mf%>%<pl%>:awa  # ;
+%<n%>%<mf%>%<sg%>%>:a   # ;
+%<n%>%<mf%>%<pl%>%>:awa  # ;
 
 LEXICON N-TABO
 
-%<n%>%<m%>%<sg%>:bo   # ;
-%<n%>%<m%>%<pl%>:bba  # ;
+%<n%>%<m%>%<sg%>%>:bo   # ;
+%<n%>%<m%>%<pl%>%>:bba  # ;
 
 LEXICON N-TUDU
 
-%<n%>%<m%>%<sg%>:du   # ;
-%<n%>%<m%>%<pl%>:ddai  # ;
+%<n%>%<m%>%<sg%>%>:du   # ;
+%<n%>%<m%>%<pl%>%>:ddai  # ;
 
 LEXICON N-TAURARO
 
-%<n%>%<m%>%<sg%>:o   # ;
-%<n%>%<m%>%<pl%>:i  # ;
+%<n%>%<m%>%<sg%>%>:o   # ;
+%<n%>%<m%>%<pl%>%>:i  # ;
 
 LEXICON N-KUJERA
 
-%<n%>%<m%>%<sg%>:a   # ;
-%<n%>%<f%>%<pl%>:u  # ;
+%<n%>%<m%>%<sg%>%>:a   # ;
+%<n%>%<f%>%<pl%>%>:u  # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -84,6 +87,10 @@ tabo:ta N-TABO ; ! "scar"
 tudu:tu N-TUDU ; ! "hill"
 tauraro:taurar N-TAURARO ; ! "star"
 kujera:kujer N-KUJERA ; ! "chair"
+
+LEXICON Punctuation
+
+%.%<sent%>:%. # ;
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
